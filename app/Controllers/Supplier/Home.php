@@ -1,4 +1,4 @@
-<?php namespace App\Controllers;
+<?php namespace App\Controllers\Supplier;
 
 class Home extends BaseController
 {
@@ -7,7 +7,7 @@ class Home extends BaseController
 		$data = [];
 		helper(['form']);
 		echo view('templates/header',$data);
-		echo view('home',$data);
+		echo view('supplier/supplier_home',$data);
 		echo view('templates/footer',$data);
 
 	}

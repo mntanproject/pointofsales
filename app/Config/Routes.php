@@ -32,6 +32,10 @@ $routes->setAutoRoute(true);
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
 
+// Supplier routes
+$routes->get('/supplier', 'Supplier\Home::index');
+$routes->get('/supplier/add', 'Supplier\Add::index');
+
 /**
  * --------------------------------------------------------------------
  * Additional Routing
