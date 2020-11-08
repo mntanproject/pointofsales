@@ -15,7 +15,7 @@
                     <h5 class="card-title">
                         <div class="d-flex justify-content-center mt-3"><i class="fas fa-eye mr-2"></i>View</div>
                     </h5>
-                    <a href="/supplier/add" class="stretched-link"></a>
+                    <a href="/supplier/view" class="stretched-link"></a>
 
 
                 </div>

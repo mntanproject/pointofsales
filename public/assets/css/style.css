@@ -2,7 +2,9 @@
     background-color: #fafafa;
 }
 
-
+.bg-my-content {
+    background-color: #007bff0d;
+}
 
 .breadcrumb a:hover {
     text-decoration: none;

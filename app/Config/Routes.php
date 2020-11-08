@@ -35,6 +35,7 @@ $routes->get('/', 'Home::index');
 // Supplier routes
 $routes->get('/supplier', 'Supplier\Home::index');
 $routes->get('/supplier/add', 'Supplier\Add::index');
+$routes->get('/supplier/view', 'Supplier\View::index');
 
 /**
  * --------------------------------------------------------------------

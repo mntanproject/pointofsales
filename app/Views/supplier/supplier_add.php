@@ -2,7 +2,7 @@
 
     <nav aria-label="breadcrumb text-dark">
         <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="#" class="text-dark"><i class="fas fa-people-carry mr-2 mt-1"></i>Supplier</a></li>
+            <li class="breadcrumb-item"><a href="/supplier" class="text-dark"><i class="fas fa-people-carry mr-2 mt-1"></i>Supplier</a></li>
             <li class="breadcrumb-item active" aria-current="page">Add Supplier</li>
         </ol>
     </nav>
