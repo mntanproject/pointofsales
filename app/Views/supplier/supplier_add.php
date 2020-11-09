@@ -65,6 +65,11 @@
             <label for="bank">Bank account</label>
             <input type="text" id="bank" class="form-control">
         </div>
+        <div class="form-group">
+            <label for="bank">Notes</label>
+            <input type="text" id="notes" class="form-control">
+        </div>
+
 
         <div class="d-flex flex-row-reverse bd-highlight mb-5">
             <a href="" class="btn btn-primary btn-md mt-3"><i class="fas fa-save mr-2"></i>Add</a>

@@ -22,7 +22,7 @@
 
 <body class="bg-my-light">
     <nav class="navbar navbar-dark bg-primary">
-        <a class=" navbar-brand" href="#">
+        <a class=" navbar-brand" href="http://pointofsales.local">
             <img src="/assets/images/logo.png" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
             Point of sales
         </a>

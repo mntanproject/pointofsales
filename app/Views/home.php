@@ -24,7 +24,7 @@
                 <div class="card-body">
                     <h5 class="card-title mb-4"><i class="fas fa-people-carry mr-2"></i>Supplier</h5>
                     <p class="card-text">There are 200 suppliers found on the system</p>
-                    <a href="/supplier" class="stretched-link"></a>
+                    <a href="supplier" class="stretched-link"></a>
                 </div>
                 <div class="card-footer">
                     <div class="d-flex flex-row-reverse bd-highlight">

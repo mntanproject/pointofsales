@@ -12,6 +12,24 @@
             <button class="btn btn-primary" type="button" id="button-addon2"><i class="fas fa-search"></i></button>
         </div>
     </div>
+
+    <!-- paginator -->
+    <div class="d-flex-fluid" style="width:100%;">
+        <nav aria-label="Page navigation example">
+            <ul class="pagination justify-content-center">
+                <li class="page-item disabled">
+                    <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item">
+                    <a class="page-link" href="#">Next</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <!-- end paginator -->
     <div class="accordion" id="accordionExample">
         <div class="card">
             <div class="card-header bg-primary" id="headingOne">
@@ -27,19 +45,32 @@
                 </h2>
             </div>
 
-            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
                 <div class="card-body bg-my-content">
                     <div class="row">
-                        <div class="col-md-2">Address</div>
-                        <div class="col-md-10">Jln mana</div>
+                        <div class="col-md-3">Address</div>
+                        <div class="col-md-3">Jln mana</div>
+                        <div class="col-md-3">Contact</div>
+                        <div class="col-md-3">+6211222333</div>
                     </div>
                     <div class="row">
-                        <div class="col-md-2">Contact</div>
-                        <div class="col-md-10">+6112344555</div>
+                        <div class="col-md-3">City</div>
+                        <div class="col-md-3">Lobang</div>
+                        <div class="col-md-3">Email</div>
+                        <div class="col-md-3">Test@gmail.com</div>
                     </div>
                     <div class="row">
-                        <div class="col-md-2">Bank</div>
-                        <div class="col-md-10">100000, BCA</div>
+                        <div class="col-md-3">State</div>
+                        <div class="col-md-3">Sumatera Barat</div>
+                        <div class="col-md-3">Bank</div>
+                        <div class="col-md-3">100000, BCA</div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3">Country</div>
+                        <div class="col-md-3">Indonesia</div>
+                    </div>
+                    <div class="row">
+
                     </div>
                     <div class="d-flex flex-row-reverse bd-highlight">
                         <button class="btn btn-primary" type="button" id="button-addon2"><i class="fas fa-trash-alt"></i></button>
@@ -63,22 +94,39 @@
             </div>
 
             <div id="collapseTwo" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
-                <div class="card-body">
+                <div class="card-body bg-my-content">
                     <div class="row">
-                        <div class="col-md-2">Address</div>
-                        <div class="col-md-10">Jln Gambir No.12</div>
+                        <div class="col-md-3">Address</div>
+                        <div class="col-md-3">Jln mana</div>
+                        <div class="col-md-3">Contact</div>
+                        <div class="col-md-3">+6211222333</div>
                     </div>
                     <div class="row">
-                        <div class="col-md-2">Contact</div>
-                        <div class="col-md-10">+6112344555</div>
+                        <div class="col-md-3">City</div>
+                        <div class="col-md-3">Lobang</div>
+                        <div class="col-md-3">Email</div>
+                        <div class="col-md-3">Test@gmail.com</div>
                     </div>
                     <div class="row">
-                        <div class="col-md-2">Bank</div>
-                        <div class="col-md-10">sds100000, BNI</div>
+                        <div class="col-md-3">State</div>
+                        <div class="col-md-3">Sumatera Barat</div>
+                        <div class="col-md-3">Bank</div>
+                        <div class="col-md-3">100000, BCA</div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3">Country</div>
+                        <div class="col-md-3">Indonesia</div>
+                    </div>
+                    <div class="row">
+
+                    </div>
+                    <div class="d-flex flex-row-reverse bd-highlight">
+                        <button class="btn btn-primary" type="button" id="button-addon2"><i class="fas fa-trash-alt"></i></button>
                     </div>
                 </div>
             </div>
         </div>
+
         <div class="card">
             <div class="card-header bg-primary" id="headingOne">
                 <h2 class="mb-0">
@@ -94,22 +142,58 @@
             </div>
 
             <div id="collapseThree" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
-                <div class="card-body">
+                <div class="card-body bg-my-content">
                     <div class="row">
-                        <div class="col-md-2">Address</div>
-                        <div class="col-md-10">Jln Bengkong no.12</div>
+                        <div class="col-md-3">Address</div>
+                        <div class="col-md-3">Jln mana</div>
+                        <div class="col-md-3">Contact</div>
+                        <div class="col-md-3">+6211222333</div>
                     </div>
                     <div class="row">
-                        <div class="col-md-2">Contact</div>
-                        <div class="col-md-10">+6110292299</div>
+                        <div class="col-md-3">City</div>
+                        <div class="col-md-3">Lobang</div>
+                        <div class="col-md-3">Email</div>
+                        <div class="col-md-3">Test@gmail.com</div>
                     </div>
                     <div class="row">
-                        <div class="col-md-2">Bank</div>
-                        <div class="col-md-10">100000, Nico</div>
+                        <div class="col-md-3">State</div>
+                        <div class="col-md-3">Sumatera Barat</div>
+                        <div class="col-md-3">Bank</div>
+                        <div class="col-md-3">100000, BCA</div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3">Country</div>
+                        <div class="col-md-3">Indonesia</div>
+                    </div>
+                    <div class="row">
+
+                    </div>
+                    <div class="d-flex flex-row-reverse bd-highlight">
+                        <button class="btn btn-primary" type="button" id="button-addon2"><i class="fas fa-trash-alt"></i></button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
+
+    <!-- paginator -->
+    <div class="d-flex-fluid mt-3" style="width:100%;">
+        <nav aria-label="Page navigation example">
+            <ul class="pagination justify-content-center">
+                <li class="page-item disabled">
+                    <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item">
+                    <a class="page-link" href="#">Next</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <!-- end paginator -->
+
 
 </div>
