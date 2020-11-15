@@ -67,24 +67,56 @@
             </nav>
         </div>
         <!-- end paginator -->
-        <div class="accordion accordion-flush" id="accordionFlushExample">
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="flush-headingOne">
-                    <a class="accordion-button collapsed btn" data-toggle="collapse" href="#flush-collapseOne" role="button" aria-expanded="false" aria-controls="#flush-collapseOne">
 
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item d-none d-sm-none d-md-block">
+                <div class="accordion-header" id="flush-heading">
+
+                    <div class="container-fluid p-3">
+                        <div class="row">
+
+                            <div class="col-md-4 text-center h6">Company</div>
+                            <div class="col-md-4 text-center h6">Sales</div>
+                            <div class="col-md-4 text-center h6">City</div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <div class="accordion-header" id="flush-headingOne">
+                    <a class="accordion-button collapsed btn" data-toggle="collapse" href="#flush-collapseOne" role="button" aria-expanded="false" aria-controls="#flush-collapseOne">
                         <div class="container-fluid p-0 m-0">
-                            <div class="row m-0">
-                                <div class="col-12 col-md-3 p-0 m-0 text-left">Company: Nippon Paint</div>
-                                <div class="col-12 col-md-3 p-0 m-0 text-left">Sales: Asikama luma</div>
-                                <div class="col-12 col-md-3 p-0 m-0 text-left">City: Surabaya</div>
-                            </div>
+                            <dl class="row m-0">
+                                <dt class="col-sm-2 p-0 m-0 text-left d-md-none d-sm-block">Company: </dt>
+                                <dd class="col-sm-2 col-md-4 text-left border-right-md">Nippon Paint</dd>
+                                <dt class="col-sm-2 p-0 m-0 text-left d-md-none d-sm-block">Sales: </dt>
+                                <dd class="col-sm-2 col-md-4 text-left border-right-md">Asikama luma</dd>
+                                <dt class="col-sm-2 p-0 m-0 text-left d-md-none d-sm-block">City: </dt>
+                                <dd class="col-sm-2 col-md-4 text-left border-right-md">Surabaya</dd>
+                            </dl>
                         </div>
 
                     </a>
 
-                </h2>
+                </div>
                 <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-parent="#accordionFlushExample">
-                    <div class="accordion-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</div>
+                    <div class="accordion-body">
+                        <dl class="row">
+                            <dt class="col-sm-3">Description lists</dt>
+                            <dd class="col-sm-9">A description list is perfect for defining terms.</dd>
+
+                            <dt class="col-sm-3">Euismod</dt>
+                            <dd class="col-sm-9">
+                                <p>Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.</p>
+                                <p>Donec id elit non mi porta gravida at eget metus.</p>
+                            </dd>
+
+                            <dt class="col-sm-3">Malesuada porta</dt>
+                            <dd class="col-sm-9">Etiam porta sem malesuada magna mollis euismod.</dd>
+                        </dl>
+                    </div>
                 </div>
             </div>
             <div class="accordion-item">
@@ -124,7 +156,6 @@
                 </div>
             </div>
         </div>
-
 
         <!-- paginator -->
         <div class="d-flex-fluid mt-3" style="width:100%;">
