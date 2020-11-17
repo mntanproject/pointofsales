@@ -20,8 +20,8 @@
 
 </head>
 
-<body class="bg-my-light">
-    <nav class="navbar navbar-dark bg-primary sticky-top ">
+<body class="bg-my-light vh-100 d-flex flex-column">
+    <nav class="navbar navbar-dark bg-primary sticky-top">
         <div class="container-fluid">
             <a class=" navbar-brand" href="supplier_home.html">
                 <img src="../assets/images/logo.png" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
@@ -69,7 +69,7 @@
         <!-- end paginator -->
 
         <div class="accordion accordion-flush" id="accordionFlushExample">
-            <div class="accordion-item d-none d-sm-none d-md-block">
+            <div class="accordion-item bg-primary bg-gradient text-white d-none d-sm-none d-md-block">
                 <div class="accordion-header" id="flush-heading">
 
                     <div class="container-fluid p-3">
@@ -86,15 +86,15 @@
 
             <div class="accordion-item">
                 <div class="accordion-header" id="flush-headingOne">
-                    <a class="accordion-button collapsed btn" data-toggle="collapse" href="#flush-collapseOne" role="button" aria-expanded="false" aria-controls="#flush-collapseOne">
+                    <a class="accordion-button collapsed btn" data-toggle="collapse" href="#flush-collapseOne" role="button" aria-expanded="false" aria-controls="#flush-collapseOne" style="border-top: none;">
                         <div class="container-fluid p-0 m-0">
                             <dl class="row m-0">
-                                <dt class="col-sm-2 p-0 m-0 text-left d-md-none d-sm-block">Company: </dt>
-                                <dd class="col-sm-2 col-md-4 text-left border-right-md">Nippon Paint</dd>
-                                <dt class="col-sm-2 p-0 m-0 text-left d-md-none d-sm-block">Sales: </dt>
-                                <dd class="col-sm-2 col-md-4 text-left border-right-md">Asikama luma</dd>
-                                <dt class="col-sm-2 p-0 m-0 text-left d-md-none d-sm-block">City: </dt>
-                                <dd class="col-sm-2 col-md-4 text-left">Surabaya</dd>
+                                <dt class="col-3 p-0 m-0 text-left d-md-none d-sm-block">Company</dt>
+                                <dd class="col-9 col-md-4 text-left border-right-md">Nippon Paint</dd>
+                                <dt class="col-3 p-0 m-0 text-left d-md-none d-sm-block">Sales</dt>
+                                <dd class="col-9 col-md-4 text-left border-right-md">Asikama luma</dd>
+                                <dt class="col-3 p-0 m-0 text-left d-md-none d-sm-block">City</dt>
+                                <dd class="col-9 col-md-4 text-left">Surabaya</dd>
                             </dl>
                         </div>
 
@@ -102,20 +102,27 @@
 
                 </div>
                 <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-parent="#accordionFlushExample">
-                    <div class="accordion-body">
-                        <dl class="row">
-                            <dt class="col-sm-3">Description lists</dt>
-                            <dd class="col-sm-9">A description list is perfect for defining terms.</dd>
-
-                            <dt class="col-sm-3">Euismod</dt>
-                            <dd class="col-sm-9">
-                                <p>Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.</p>
-                                <p>Donec id elit non mi porta gravida at eget metus.</p>
-                            </dd>
-
-                            <dt class="col-sm-3">Malesuada porta</dt>
-                            <dd class="col-sm-9">Etiam porta sem malesuada magna mollis euismod.</dd>
-                        </dl>
+                    <div class="accordion-body bg-light">
+                        <div class="container-fluid">
+                            <dl class="row">
+                                <dt class="col-2 small pt-01">Contact</dt>
+                                <dd class="col-10">+091222333</dd>
+                                <dt class="col-2 small pt-01">Email</dt>
+                                <dd class="col-10">Asika@nippon.co.id</dd>
+                                <dt class="col-2 small pt-01">Street</dt>
+                                <dd class="col-10">Jalan Sumatra</dd>
+                                <dt class="col-2 small pt-01">City</dt>
+                                <dd class="col-10">Surabaya</dd>
+                                <dt class="col-2 small pt-01">State</dt>
+                                <dd class="col-10">Jawa barat</dd>
+                                <dt class="col-2 small pt-01">Country&nbsp;</dt>
+                                <dd class="col-10">Indonesia</dd>
+                                <dt class="col-2 small pt-01">Bank</dt>
+                                <dd class="col-10">BCA 3902239999 Atas nama tkelia</dd>
+                                <dt class="col-2 small pt-01">Note</dt>
+                                <dd class="col-10">Transfer dulu nanti barang baru sampai ke indonesia</dd>
+                            </dl>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -124,17 +131,41 @@
                     <a class="accordion-button collapsed btn" data-toggle="collapse" href="#flush-collapseTwo" role="button" aria-expanded="false" aria-controls="#flush-collapseTwo">
 
                         <div class="container-fluid p-0 m-0">
-                            <div class="row m-0">
-                                <div class="col-12 col-md-3 p-0 m-0 text-left">Company: Tekiro</div>
-                                <div class="col-12 col-md-3 p-0 m-0 text-left">Sales: Casey loi</div>
-                                <div class="col-12 col-md-3 p-0 m-0 text-left">City: Medan</div>
-                            </div>
+                            <dl class="row m-0">
+                                <dt class="col-3 p-0 m-0 text-left d-md-none d-sm-block">Company</dt>
+                                <dd class="col-9 col-md-4 text-left border-right-md">Tekiro</dd>
+                                <dt class="col-3 p-0 m-0 text-left d-md-none d-sm-block">Sales</dt>
+                                <dd class="col-9 col-md-4 text-left border-right-md">Casey Say</dd>
+                                <dt class="col-3 p-0 m-0 text-left d-md-none d-sm-block">City</dt>
+                                <dd class="col-9 col-md-4 text-left">Medan</dd>
+                            </dl>
                         </div>
 
                     </a>
                 </h2>
                 <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-parent="#accordionFlushExample">
-                    <div class="accordion-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</div>
+                    <div class="accordion-body">
+                        <div class="container-fluid">
+                            <dl class="row">
+                                <dt class="col-2 small pt-01">Contact</dt>
+                                <dd class="col-10">+62 8127717772222</dd>
+                                <dt class="col-2 small pt-01">Email</dt>
+                                <dd class="col-10">Casey.cay@tekiro.com</dd>
+                                <dt class="col-2 small pt-01">Street</dt>
+                                <dd class="col-10">Jln raya dua tiga</dd>
+                                <dt class="col-2 small pt-01">City</dt>
+                                <dd class="col-10">Medan</dd>
+                                <dt class="col-2 small pt-01">State</dt>
+                                <dd class="col-10">Sumatera barat</dd>
+                                <dt class="col-2 small pt-01">Country</dt>
+                                <dd class="col-10">Indonesia</dd>
+                                <dt class="col-2 small pt-01">Bank</dt>
+                                <dd class="col-10">BNI 8902239999 Atas nama tekiro</dd>
+                                <dt class="col-2 small pt-01">Note</dt>
+                                <dd class="col-10">Transfer 2 bulan setelah barang diterima, kalau tidak di blacklist baru sampai ke indonesia</dd>
+                            </dl>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="accordion-item">
@@ -142,17 +173,40 @@
                     <a class="accordion-button collapsed btn" data-toggle="collapse" href="#flush-collapseThree" role="button" aria-expanded="false" aria-controls="#flush-collapseThree">
 
                         <div class="container-fluid p-0 m-0">
-                            <div class="row m-0">
-                                <div class="col-12 col-md-3 p-0 m-0 text-left">Company: PT. Pantene</div>
-                                <div class="col-12 col-md-3 p-0 m-0 text-left">Sales: Maklo Hadiri</div>
-                                <div class="col-12 col-md-3 p-0 m-0 text-left">City: Cikarang</div>
-                            </div>
+                            <dl class="row m-0">
+                                <dt class="col-3 p-0 m-0 text-left d-md-none d-sm-block">Company</dt>
+                                <dd class="col-9 col-md-4 text-left border-right-md">PT. Pantene</dd>
+                                <dt class="col-3 p-0 m-0 text-left d-md-none d-sm-block">Sales</dt>
+                                <dd class="col-9 col-md-4 text-left border-right-md">Mark Tan</dd>
+                                <dt class="col-3 p-0 m-0 text-left d-md-none d-sm-block">City</dt>
+                                <dd class="col-9 col-md-4 text-left">Jakarta</dd>
+                            </dl>
                         </div>
-
                     </a>
                 </h2>
                 <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-parent="#accordionFlushExample">
-                    <div class="accordion-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</div>
+                    <div class="accordion-body">
+                        <div class="container-fluid">
+                            <dl class="row">
+                                <dt class="col-2 small pt-01">Contact</dt>
+                                <dd class="col-10">+62 8134447772222</dd>
+                                <dt class="col-2 small pt-01">Email</dt>
+                                <dd class="col-10">marktan@gmail.com</dd>
+                                <dt class="col-2 small pt-01">Street</dt>
+                                <dd class="col-10">Jln mangga satu</dd>
+                                <dt class="col-2 small pt-01">City</dt>
+                                <dd class="col-10">Bandung</dd>
+                                <dt class="col-2 small pt-01">State</dt>
+                                <dd class="col-10">Jawa tengah</dd>
+                                <dt class="col-2 small pt-01">Country</dt>
+                                <dd class="col-10">Indonesia</dd>
+                                <dt class="col-2 small pt-01">Bank</dt>
+                                <dd class="col-10">BRI 33339999 Atas nama tekiro</dd>
+                                <dt class="col-2 small pt-01">Note</dt>
+                                <dd class="col-10">Transfer 2 bulan setelah barang diterima, kalau tidak di blacklist baru sampai ke indonesia</dd>
+                            </dl>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -177,6 +231,14 @@
 
 
     </div>
+
+
+    <footer class="footer mt-auto py-3">
+        <div class="container">
+            <div class="d-flex mt-5 mb-3 justify-content-end text-muted">&#169; 2020, All rights reserved</div>
+
+        </div>
+    </footer>
 
     <!-- -->
     <script src="../assets/js/popper.min.js"></script>

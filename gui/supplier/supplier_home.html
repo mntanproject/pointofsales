@@ -20,7 +20,7 @@
 
 </head>
 
-<body class="bg-my-light">
+<body class="d-flex flex-column vh-100 bg-my-light">
     <nav class="navbar navbar-dark bg-primary">
         <a class=" navbar-brand" href="../home.html">
             <img src="../assets/images/logo.png" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
@@ -38,15 +38,16 @@
         </nav>
 
         <!-- content -->
+
         <div class="row row-cols-1 row-cols-md-3">
 
 
             <div class="col mb-4">
-                <div class="card h-100 shadow-lg  bg-primary text-white">
+                <div class="card  shadow-lg  bg-primary text-white">
                     <div class="card-body">
-                        <h5 class="card-title">
-                            <div class="d-flex justify-content-center mt-3"><i class="fas fa-eye mr-2"></i>View</div>
-                        </h5>
+                        <div class="d-flex align-items-center justify-content-center pt-3 h5">
+                            <p><i class="fas fa-eye mr-2"></i>View</p>
+                        </div>
                         <a href="supplier_view.html" class="stretched-link"></a>
 
 
@@ -55,21 +56,30 @@
             </div>
 
             <div class="col mb-4">
-                <div class="card h-100 shadow-lg  bg-primary text-white">
+                <div class="card shadow-lg  bg-primary text-white">
                     <div class="card-body">
-                        <h5 class="card-title">
-                            <div class="d-flex justify-content-center mt-3"><i class="fas fa-plus-circle mr-2"></i>Add</div>
-                        </h5>
+                        <div class="d-flex align-items-center justify-content-center pt-3 h5">
+                            <p><i class="fas fa-plus-circle mr-2"></i>Add</p>
+                        </div>
                         <a href="supplier_add.html" class="stretched-link"></a>
 
                     </div>
                 </div>
             </div>
-
-
         </div>
     </div>
 
+    <footer class="footer mt-auto py-3">
+        <div class="container">
+            <div class="d-flex mt-5 mb-3 justify-content-end text-muted">&#169; 2020, All rights reserved</div>
+
+        </div>
+    </footer>
+
+
+
     <!-- -->
 
-</body></html>
+</body>
+
+</html>
