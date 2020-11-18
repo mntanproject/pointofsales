@@ -1,33 +1,8 @@
-'use strict';
+var generateHeader = function () {
+    var header = document.createElement('header');
+    //header.class = 'footer mt-auto py-3';
+    header.innerHTML = '<nav class="navbar navbar-dark bg-primary sticky-top">  <div class="container-fluid"> <a class=" navbar-brand" href="supplier_home.html">               <img src="../assets/images/logo.png" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">Point of sales</a></div></nav>';
+    document.body.appendChild(header);
+}
 
-
-/*
-class Header extends React.Component {
-        constructor(props) {
-            super(props);
-            this.state = {
-                favoritecolor: "red"
-            };
-        }
-        componentDidMount() {
-            const script = document.createElement("script");
-            script.src = "../assets/js/test.js";
-            script.async = true;
-            document.head.appendChild(script);
-        }
-        render() {
-            return ( < > < />);
-            }
-        }
-
-        ReactDOM.render( < Header / > , document.head);
-*/
-
-
-var getCss = function(path) {
-    const element = ( <link rel = "stylesheet" href = {path} />
-    );
-    ReactDOM.render(element, document.getElementById('test'));
-};
-
-
+generateHeader();
